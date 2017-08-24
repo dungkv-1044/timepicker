@@ -7,7 +7,7 @@
 //
 
 import UIKit
-@IBDesignable class CustomButton: UIView {
+@IBDesignable class CustomUIView: UIView {
    
     @IBInspectable var cornerRadius : CGFloat = 10 {
         didSet {

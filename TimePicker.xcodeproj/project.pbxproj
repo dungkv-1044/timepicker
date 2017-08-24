@@ -14,6 +14,7 @@
 		C4D6D1DB1F4C0D9500473DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D6D1D91F4C0D9500473DDA /* LaunchScreen.storyboard */; };
 		C4D6D1E61F4C0D9500473DDA /* TimePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6D1E51F4C0D9500473DDA /* TimePickerTests.swift */; };
 		C4D6D1F11F4C0D9500473DDA /* TimePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6D1F01F4C0D9500473DDA /* TimePickerUITests.swift */; };
+		C4D6D1FF1F4C137F00473DDA /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6D1FE1F4C137F00473DDA /* CustomUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C4D6D1EC1F4C0D9500473DDA /* TimePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D6D1F01F4C0D9500473DDA /* TimePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerUITests.swift; sourceTree = "<group>"; };
 		C4D6D1F21F4C0D9500473DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D6D1FE1F4C137F00473DDA /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C4D6D1D71F4C0D9500473DDA /* Assets.xcassets */,
 				C4D6D1D91F4C0D9500473DDA /* LaunchScreen.storyboard */,
 				C4D6D1DC1F4C0D9500473DDA /* Info.plist */,
+				C4D6D1FE1F4C137F00473DDA /* CustomUIView.swift */,
 			);
 			path = TimePicker;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				C4D6D1D31F4C0D9500473DDA /* ViewController.swift in Sources */,
 				C4D6D1D11F4C0D9500473DDA /* AppDelegate.swift in Sources */,
+				C4D6D1FF1F4C137F00473DDA /* CustomUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
